@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    overflow-y: auto;
+}
+
+.list {
+    margin: 0;
+    width: 476px;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.todo_high {
+    position: fixed;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.todo_high__form_input {
+    position: absolute;
+    width: 423px;
+    height: 45px;
+
+    background: #FFFFFF;
+    border: 1px solid #989898;
+    border-radius: 6px;
+
+    padding-left: 12px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.todo_high__form {
+    height: 50px;
+}
+
+
+.high_text {
+    margin-bottom: 12px;
+    width: 476px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input_pls {
+    position: fixed;
+    right: 12px;
+    top: 48px;
+    width: 20px;
+    height: 20px;
+}
+
+.div_img {
+    position: fixed;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: -9px;
+}
+
+
+.divEl {
+    display: flex;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+
+    width: 474px;
+    min-height: 45px;
+
+    background: #FFFFFF;
+    border: 1px solid #989898;
+    border-radius: 6px;
+
+    padding-top: 11px;
+    padding-left: 5px;
+    padding-right: 3px;
+    padding-bottom: 11px;
+
+    word-wrap: break-word;
+}
+
+.divForm {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.todo_high__form_input {
+    padding-right: 37px;
+}
+
+input[type="radio"] {
+    min-width: 21px;
+    height: 21px;
+    margin-left: 8px;
+    margin-top: 1px;
+    margin-right: 12px;
+}
+
+.newForm {
+    overflow-y: auto;
+    max-height: 300px; 
+    
+}
+
+.imgClose {
+    max-width: 16px;
+    max-height: 16px;
+    margin-left: auto;
+    margin-top: 3px;
+    margin-right: 7px;
+}
+
+/*        low        */
+.todo_high {
+    position: fixed; /* добавлено */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.todo_low {
+    margin-top: 900px;
+    margin-top: calc(100px + 21px); /* добавлено */
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
